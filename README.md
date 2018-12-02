@@ -51,7 +51,7 @@ pip install tqdm
     <img src="https://github.com/Y2L/social_relation_tensorflow/blob/master/docs/PIPA.png" width="600"/>
 </p>
 
-> Person pair counting in terms of agreement agr. "Skipped" denotes the pairs skipped by all annotators when they couldn't recognize any relation. This paper uses annotations with agr>=3, i.e., useful annotations take 82.6% of all person pairs.
+> Figure: Person pair counting in terms of agreement agr.
 
 #### Image resource
 The image resource [People in Photo Album (PIPA)](https://people.eecs.berkeley.edu/~nzhang/piper.html) was collected from Flickr photo albums for the task of person recognition. Photos from Flickr cover a wide range of social situations and are thus a good starting point for social relations. The same person often appears in different social scenarios and interacting with different people which make it ideal for our purpose. Identity information is used for selecting person pairs and defining train-validation-test splits. In summary, PIPA contains 37,107 photos with 63,188 instances of 2,356 identities. We extend the dataset by 26,915 person pair annotations for social relations.
