@@ -60,3 +60,11 @@ Annotating social relations might be subjective and ambiguous. One reason is tha
 * Based on our pre-annotation phase, we allowed at most 3 relation labels per person pair.
 
 **Single body/face data and train-test-eval splits can be download here: [data](http://datasets.d2.mpi-inf.mpg.de/qsun_cvpr17/version_1.0/single_body_face_images.zip), [splits](http://datasets.d2.mpi-inf.mpg.de/qsun_cvpr17/version_1.0/train_test_eval_splits.zip)**
+
+## Usage
+
+Train models:
+
+```Python
+CUDA_VISIBLE_DEVICES=0 python main.py --train=True --net_arch=resnet101 --double_stream_mode=True --epoch_num=10 --batch_size=10 --cls_num=16 --learning_rate=1e-4 --shuffle_dataset=True --img_list1=${DATA_LIST1} --img_list2=${DATA_LIST2}
+```
