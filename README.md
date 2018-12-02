@@ -23,8 +23,6 @@ Social relations are the foundation of human daily life. Developing techniques t
 
 ## Installation
 
-### Requirements
-
 In order to run this repo, we advise you to install python 2.7 and TensorFlow 1.3.0 with Anaconda.
 
 You may download Anaconda and read the installation instrucation on their offical website:
