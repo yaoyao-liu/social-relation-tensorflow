@@ -6,6 +6,8 @@ This repo is the TensorFlow implementation of CVPR 2017 Paper [A Domain Based Ap
     <img src="https://github.com/Y2L/social_relation_tensorflow/blob/master/docs/framework.png" width="600"/>
 </p>
 
+Figure 4. A double-stream CaffeNet, which learns an end-to-end mapping from an image pair (a body pair or face pair) to either 5 domain classes or 16 relation classes.
+
 #### Summary:
 
 * [Introduction](#introduction)
@@ -45,6 +47,10 @@ pip install tqdm
 ```
 
 ## Dataset
+
+<p align="center">
+    <img src="https://github.com/Y2L/social_relation_tensorflow/blob/master/docs/PIPA.png" width="600"/>
+</p>
 
 #### Image resource
 The image resource [People in Photo Album (PIPA)](https://people.eecs.berkeley.edu/~nzhang/piper.html) was collected from Flickr photo albums for the task of person recognition. Photos from Flickr cover a wide range of social situations and are thus a good starting point for social relations. The same person often appears in different social scenarios and interacting with different people which make it ideal for our purpose. Identity information is used for selecting person pairs and defining train-validation-test splits. In summary, PIPA contains 37,107 photos with 63,188 instances of 2,356 identities. We extend the dataset by 26,915 person pair annotations for social relations.
