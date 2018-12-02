@@ -39,8 +39,8 @@ pip install --ignore-installed --upgrade https://mirrors.tuna.tsinghua.edu.cn/te
 Then clone the repo install the requirements:
 
 ```Bash
-git clone https://github.com/Y2L/social_relation_tensorflow.git 
-cd social_relation_tensorflow
+git clone https://github.com/Y2L/social-relation-tensorflow.git 
+cd social-relation-tensorflow-master
 pip install scipy
 pip install tqdm
 ```
