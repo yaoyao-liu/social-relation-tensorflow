@@ -32,3 +32,12 @@ conda create --name tensorflow_1.3.0_gpu python=2.7
 source activate tensorflow_1.3.0_gpu
 pip install --ignore-installed --upgrade https://mirrors.tuna.tsinghua.edu.cn/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-cp27-none-linux_x86_64.whl
 ```
+
+Then clone the repo install the requirements:
+
+```Bash
+git clone https://github.com/Y2L/social_relation_tensorflow.git 
+cd social_relation_tensorflow
+pip install scipy
+pip install tqdm
+```
