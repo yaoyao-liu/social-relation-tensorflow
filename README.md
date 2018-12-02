@@ -1,4 +1,4 @@
-# Social Relation Recognition in TensorFlow
+# Social Relation Recognition using TensorFlow
 
 This repo is the TensorFlow implementation of CVPR 2017 Paper [A Domain Based Approach to Social Relation Recognition](https://arxiv.org/pdf/1704.06456.pdf) by [Qianru Sun](https://www.comp.nus.edu.sg/~sunqr/), [Mario Fritz](https://scalable.mpi-inf.mpg.de/), and [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/bernt-schiele/).
 
@@ -11,7 +11,7 @@ This repo is the TensorFlow implementation of CVPR 2017 Paper [A Domain Based Ap
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Dataset](#Dataset)
-* [Examples](#examples)
+* [Usage](#usage)
 * [Citation](#citation)
 
 ## Introduction
@@ -41,3 +41,8 @@ cd social_relation_tensorflow
 pip install scipy
 pip install tqdm
 ```
+
+## Dataset
+
+### Image resource.
+The image resource [People in Photo Album (PIPA)](https://people.eecs.berkeley.edu/~nzhang/piper.html) was collected from Flickr photo albums for the task of person recognition. Photos from Flickr cover a wide range of social situations and are thus a good starting point for social relations. The same person often appears in different social scenarios and interacting with different people which make it ideal for our purpose. Identity information is used for selecting person pairs and defining train-validation-test splits. In summary, PIPA contains 37,107 photos with 63,188 instances of 2,356 identities. We extend the dataset by 26,915 person pair annotations for social relations.
