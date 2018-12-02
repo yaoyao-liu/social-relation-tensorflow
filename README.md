@@ -6,7 +6,6 @@ This repo is the TensorFlow implementation of CVPR 2017 Paper [A Domain Based Ap
     <img src="https://github.com/Y2L/social_relation_tensorflow/blob/master/docs/framework.png" width="600"/>
 </p>
 
-Figure 4. A double-stream CaffeNet, which learns an end-to-end mapping from an image pair (a body pair or face pair) to either 5 domain classes or 16 relation classes.
 
 #### Summary:
 
