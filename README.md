@@ -28,7 +28,8 @@ You may download Anaconda and read the installation instrucation on their offica
 [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 
 ```Bash
-conda create --name vqa python=3
-source activate vqa
-conda install pytorch torchvision cuda80 -c soumith
+conda create --name tensorflow_1.3.0_gpu python=2.7
+source activate tensorflow_1.3.0_gpu
+pip install --ignore-installed --upgrade \
+ https://mirrors.tuna.tsinghua.edu.cn/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-cp27-none-linux_x86_64.whl
 ```
