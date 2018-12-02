@@ -66,5 +66,11 @@ Annotating social relations might be subjective and ambiguous. One reason is tha
 Train models:
 
 ```Bash
-CUDA_VISIBLE_DEVICES=0 python main.py --train=True --net_arch=resnet101 --double_stream_mode=True --epoch_num=10 --batch_size=10 --cls_num=16 --learning_rate=1e-4 --shuffle_dataset=True --img_list1=${DATA_LIST1} --img_list2=${DATA_LIST2}
+python main.py --train=True --net_arch=vgg19 --double_stream_mode=True --epoch_num=10 --batch_size=10 --cls_num=16 --learning_rate=1e-4 --shuffle_dataset=True --img_list1=${DATA_LIST1} --img_list2=${DATA_LIST2}
+```
+
+Run the test:
+
+```Bash
+python main.py --train=False --net_arch=vgg19 --double_stream_mode=True --batch_size=10 --cls_num=16 --img_list1=${TEST_DATA_LIST1} --img_list2=${TEST_DATA_LIST2}
 ```
