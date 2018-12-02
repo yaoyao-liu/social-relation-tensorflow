@@ -27,6 +27,8 @@ In order to run this repo, we advise you to install python 2.7 and TensorFlow 1.
 You may download Anaconda and read the installation instrucation on their offical website:
 [https://www.anaconda.com/download/](https://www.anaconda.com/download/)
 
+Then create a new environment and install tensorflow on it:
+
 ```Bash
 conda create --name tensorflow_1.3.0_gpu python=2.7
 source activate tensorflow_1.3.0_gpu
@@ -46,3 +48,13 @@ pip install tqdm
 
 #### Image resource
 The image resource [People in Photo Album (PIPA)](https://people.eecs.berkeley.edu/~nzhang/piper.html) was collected from Flickr photo albums for the task of person recognition. Photos from Flickr cover a wide range of social situations and are thus a good starting point for social relations. The same person often appears in different social scenarios and interacting with different people which make it ideal for our purpose. Identity information is used for selecting person pairs and defining train-validation-test splits. In summary, PIPA contains 37,107 photos with 63,188 instances of 2,356 identities. We extend the dataset by 26,915 person pair annotations for social relations.
+
+#### Annotators
+Annotating social relations might be subjective and ambiguous. One reason is that a person pair may have multiple plausible relations, as shown in Figure 2. Another reason is that the definition of the same social relation might differ, depending on the cultural backgrounds of the annotators. We selected 5 annotators from Asia, Africa, Europe and America and gave them detailed explanations and photo examples to help them keep a basic consistency.
+
+#### Annotation protocol
+* For each annotated person, the head bounding box and identity number are available.
+* The label space is hierarchical, by assigning social domain labels that partition the data into 5 domain classes as well as assigning a label for the particular relation that two persons appear to be in.
+* Annotators are asked to individually annotate all person pairs for which we present pairs of head bounding boxes.
+* For each pair the annotator can either pick a relation from our list or, if they are too uncertain, can skip this pair. For example, two people wearing uniforms and working in the factory should be labeled as "colleagues", as the cues of action "working", clothing "uniforms" and environment "factory" are obvious. If the annotators are uncertain they are asked to indicate this by clicking "maybe" for this relation.
+* Based on our pre-annotation phase, we allowed at most 3 relation labels per person pair.
