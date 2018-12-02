@@ -74,3 +74,17 @@ Run the test:
 ```Bash
 python main.py --train=False --net_arch=vgg19 --double_stream_mode=True --batch_size=10 --cls_num=16 --img_list1=${TEST_DATA_LIST1} --img_list2=${TEST_DATA_LIST2}
 ```
+
+## Citation
+
+Please cite our paper if it is helpful to your work:
+
+```
+@inproceedings{sun2017socialrelation,
+  title={A domain based approach to social relation recognition},
+  author={Sun, Qianru and Schiele, Bernt and Fritz, Mario},
+  booktitle={CVPR},
+  pages={21--26},
+  year={2017}
+}
+```
