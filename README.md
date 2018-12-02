@@ -59,4 +59,4 @@ Annotating social relations might be subjective and ambiguous. One reason is tha
 * For each pair the annotator can either pick a relation from our list or, if they are too uncertain, can skip this pair. For example, two people wearing uniforms and working in the factory should be labeled as "colleagues", as the cues of action "working", clothing "uniforms" and environment "factory" are obvious. If the annotators are uncertain they are asked to indicate this by clicking "maybe" for this relation.
 * Based on our pre-annotation phase, we allowed at most 3 relation labels per person pair.
 
-** Single body/face data and train-test-eval splits can be download here:[data](http://datasets.d2.mpi-inf.mpg.de/qsun_cvpr17/version_1.0/single_body_face_images.zip), [splits](http://datasets.d2.mpi-inf.mpg.de/qsun_cvpr17/version_1.0/train_test_eval_splits.zip) **
+**Single body/face data and train-test-eval splits can be download here: [data](http://datasets.d2.mpi-inf.mpg.de/qsun_cvpr17/version_1.0/single_body_face_images.zip), [splits](http://datasets.d2.mpi-inf.mpg.de/qsun_cvpr17/version_1.0/train_test_eval_splits.zip)**
