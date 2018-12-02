@@ -1,1 +1,1 @@
-# social_relations
+# Social Relation Recognition in TensorFlow
