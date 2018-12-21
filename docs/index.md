@@ -5,7 +5,7 @@ This repo is the TensorFlow implementation of CVPR 2017 Paper [A Domain Based Ap
 </p>
 
 
-#### Summary:
+## Summary:
 
 * [Introduction](#introduction)
 * [Installation](#installation)
