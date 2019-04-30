@@ -1,4 +1,4 @@
-# Social Relation Recognition using TensorFlow
+# Social Relation Recognition TensorFlow
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Y2L/social-relation-tensorflow/blob/master/LICENSE)
 
