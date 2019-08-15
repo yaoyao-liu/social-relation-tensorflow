@@ -1,6 +1,8 @@
 # Social Relation Recognition TensorFlow
 
 [![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Y2L/social-relation-tensorflow/blob/master/LICENSE)
+[![Python](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/tensorflow-1.3.0-orange.svg)](https://www.tensorflow.org/)
 
 This repository contains the TensorFlow implementation of CVPR 2017 Paper [A Domain Based Approach to Social Relation Recognition](https://arxiv.org/pdf/1704.06456.pdf) by [Qianru Sun](https://sites.google.com/view/qianrusun/home), [Mario Fritz](https://scalable.mpi-inf.mpg.de/), and [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/people/bernt-schiele/).
 
