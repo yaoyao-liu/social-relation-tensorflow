@@ -1,6 +1,6 @@
 # Social Relation Recognition TensorFlow
 
-[![LICENSE](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Y2L/social-relation-tensorflow/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/y2l/social-relation-tensorflow.svg)](https://github.com/Y2L/social-relation-tensorflow/blob/master/LICENSE)
 [![Python](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/tensorflow-1.3.0-orange.svg)](https://www.tensorflow.org/)
 
